@@ -1,30 +1,25 @@
 * For starting and test programm you should run 4 separate processes:
 
 
-1. Install dependencies
+1. Run servers (from root folder):
+
 ```
 npm install
-cd client && npm install
-```
-
-
-2. Run servers:
-
-```
 npm run server1
 npm run server2
 ```
 
 
-3. Run clients:
+2. Run clients (from ./client folder):
 
 ```
-cd client && npm run client2
-cd client && npm run client1
+npm install
+npm run client2
+npm run client1
 ```
 
 
-4. Test the whole system
+3. Test the whole system
 
 On client 1 enter any text message and press submit button.
 Message will appear on client 2.
